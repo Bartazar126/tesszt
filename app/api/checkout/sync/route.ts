@@ -1,25 +1,7 @@
 import { NextResponse } from 'next/server';
 import Stripe from 'stripe';
-import { createClient } from '@supabase/supabase-js';
-import fs from 'fs';
-import path from 'path';
-
-function getStripeKeys() {
-    try {
-        const filePath = path.join(process.cwd(), 'data', 'stripe.json');
-        if (fs.existsSync(filePath)) {
-            const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-            return { secretKey: data.secretKey || process.env.STRIPE_SECRET_KEY || '' };
-        }
-    } catch (e) {
-        console.error('Error reading stripe keys:', e);
-    }
-    return { secretKey: process.env.STRIPE_SECRET_KEY || '' };
-}
-
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
-const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || '';
-const supabase = createClient(supabaseUrl, supabaseServiceKey);
+import { getSupabaseClient } from '@/lib/supabase';
+import { getStripeKeys } from '@/lib/stripe';
 
 export async function POST(req: Request) {
     try {
@@ -31,6 +13,11 @@ export async function POST(req: Request) {
         }
 
         const { secretKey } = getStripeKeys();
+        if (!secretKey) {
+             console.error('Stripe Secret Key is missing');
+             return NextResponse.json({ error: 'Configuration error' }, { status: 500 });
+        }
+
         const stripe = new Stripe(secretKey, {
             apiVersion: '2023-10-16' as any,
         });
@@ -39,6 +26,12 @@ export async function POST(req: Request) {
 
         if (session.payment_status !== 'paid') {
             return NextResponse.json({ error: 'Order not paid yet' }, { status: 400 });
+        }
+
+        const supabase = getSupabaseClient();
+        if (!supabase) {
+             console.error('Supabase client failed to initialize');
+             return NextResponse.json({ error: 'Database configuration error' }, { status: 500 });
         }
 
         const metadata = session.metadata || {};

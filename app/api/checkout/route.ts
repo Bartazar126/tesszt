@@ -1,20 +1,6 @@
 import { NextResponse } from 'next/server';
 import Stripe from 'stripe';
-import fs from 'fs';
-import path from 'path';
-
-function getStripeKeys() {
-    try {
-        const filePath = path.join(process.cwd(), 'data', 'stripe.json');
-        if (fs.existsSync(filePath)) {
-            const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-            return { secretKey: data.secretKey || process.env.STRIPE_SECRET_KEY || '' };
-        }
-    } catch (e) {
-        console.error('Error reading stripe keys:', e);
-    }
-    return { secretKey: process.env.STRIPE_SECRET_KEY || '' };
-}
+import { getStripeKeys } from '@/lib/stripe';
 
 export async function POST(req: Request) {
     try {

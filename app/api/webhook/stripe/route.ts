@@ -1,39 +1,20 @@
 import { NextResponse } from 'next/server';
 import Stripe from 'stripe';
-import { createClient } from '@supabase/supabase-js';
+import { getSupabaseClient } from '@/lib/supabase';
+import { getStripeKeys } from '@/lib/stripe';
 import { headers } from 'next/headers';
-import fs from 'fs';
-import path from 'path';
-
-function getStripeKeys() {
-    try {
-        const filePath = path.join(process.cwd(), 'data', 'stripe.json');
-        if (fs.existsSync(filePath)) {
-            const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-            return {
-                secretKey: data.secretKey || process.env.STRIPE_SECRET_KEY || '',
-                webhookSecret: data.webhookSecret || process.env.STRIPE_WEBHOOK_SECRET || ''
-            };
-        }
-    } catch (e) {
-        console.error('Error reading stripe keys:', e);
-    }
-    return {
-        secretKey: process.env.STRIPE_SECRET_KEY || '',
-        webhookSecret: process.env.STRIPE_WEBHOOK_SECRET || ''
-    };
-}
-
-// Initialize Supabase Client
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || '';
-const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || '';
-const supabase = createClient(supabaseUrl, supabaseServiceKey);
 
 export async function POST(req: Request) {
     const body = await req.text();
     const sig = headers().get('stripe-signature') as string;
 
     const { secretKey, webhookSecret } = getStripeKeys();
+
+    if (!secretKey) {
+        console.error('Stripe Secret Key is missing');
+        return NextResponse.json({ error: 'Server configuration error' }, { status: 500 });
+    }
+
     const stripe = new Stripe(secretKey, {
         apiVersion: '2023-10-16' as any,
     });
@@ -41,15 +22,22 @@ export async function POST(req: Request) {
     let event;
 
     try {
-        if (webhookSecret) {
+        if (webhookSecret && sig) {
             event = stripe.webhooks.constructEvent(body, sig, webhookSecret);
         } else {
-            // Bypass signature verification if no secret is configured (for direct testing without CLI)
+            // Only allow unverified events if specifically testing or if no secret is set
+            if (!webhookSecret) console.warn('Webhook secret not set, skipping signature verification');
             event = JSON.parse(body);
         }
     } catch (err: any) {
         console.error(`Webhook Error: ${err.message}`);
         return NextResponse.json({ error: `Webhook Error: ${err.message}` }, { status: 400 });
+    }
+
+    const supabase = getSupabaseClient();
+    if (!supabase) {
+        console.error('Supabase client failed to initialize');
+        return NextResponse.json({ error: 'Database configuration error' }, { status: 500 });
     }
 
     // Handle the event
