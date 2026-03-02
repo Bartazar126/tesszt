@@ -1,0 +1,31 @@
+.wrapper {
+  display: flex;
+  gap: 2px;
+  background: var(--color-surface);
+  border-radius: var(--radius-sm);
+  padding: 4px;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.btn,
+.active {
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-text-muted);
+  background: transparent;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  border: none;
+}
+
+.btn:hover {
+  color: var(--color-text);
+  background: var(--color-surface-hover);
+}
+
+.active {
+  color: var(--color-accent);
+  background: rgba(15, 23, 42, 0.04);
+}

@@ -1,0 +1,103 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "louvre": "Louvre",
+    "eiffel": "Torre Eiffel",
+    "seine": "Crucero por el Sena",
+    "admin": "Admin"
+  },
+  "hero": {
+    "title": "Entradas al Louvre y audioguías con e-guía",
+    "subtitle": "Evita las colas y descubre las atracciones imprescindibles de París"
+  },
+  "tickets": {
+    "buy": "Comprar billete",
+    "from": "desde",
+    "adult": "Adulto",
+    "child": "Niño",
+    "duration": "Duración",
+    "date": "Fecha",
+    "time": "Hora",
+    "total": "Total",
+    "decrease": "Disminuir",
+    "increase": "Aumentar",
+    "previousMonth": "Mes anterior",
+    "nextMonth": "Mes siguiente",
+    "fullName": "Nombre completo",
+    "email": "Correo electrónico",
+    "confirmEmail": "Confirmar correo electrónico",
+    "phone": "Número de teléfono",
+    "fillAllFields": "Por favor, rellene todos los campos.",
+    "emailMismatch": "Los correos electrónicos no coinciden.",
+    "checkAvailability": "Ver disponibilidad",
+    "included": "Qué está incluido",
+    "notIncluded": "Qué no está incluido",
+    "important": "Información importante",
+    "meetingPoint": "Punto de encuentro y mapa"
+  },
+  "louvre": {
+    "title": "Museo del Louvre",
+    "description": "Descubre el museo de arte más grande del mundo. La Mona Lisa, La Libertad guiando al pueblo y miles de obras maestras te esperan.",
+    "duration": "2-4 horas"
+  },
+  "eiffel": {
+    "title": "Torre Eiffel",
+    "description": "Monumento emblemático de París. Impresionantes vistas de la ciudad desde el segundo o tercer piso.",
+    "duration": "1-2 horas"
+  },
+  "seine": {
+    "title": "Crucero por el Sena",
+    "description": "Romántico paseo en barco por el Sena. Los mejores monumentos de París desde el agua.",
+    "duration": "1 hora"
+  },
+  "home": {
+    "badge": "Experiencia al estilo ParisTicket",
+    "delivery": "Entrega inmediata",
+    "support": "Soporte 24/7",
+    "skip": "Acceso sin colas",
+    "secure": "Pago seguro",
+    "selectTour": "Seleccione su tour",
+    "selectDesc": "Entradas y tours para las atracciones más famosas de París.",
+    "approx": "Aprox.",
+    "featuresDesc": "Entradas para el Louvre, acceso a la Torre Eiffel y cruceros por el Sena, todo en un solo lugar.",
+    "whyBook": "Por qué reservar con nosotros",
+    "feat1Title": "Inclusiones del billete",
+    "feat1Desc": "Acceso completo a las atracciones con inclusiones claramente descritas antes del pago.",
+    "feat2Title": "Confirmación instantánea",
+    "feat2Desc": "Su reserva se confirma inmediatamente después de la compra, entradas enviadas en minutos.",
+    "feat3Title": "Entradas digitales",
+    "feat3Desc": "Muestre su entrada móvil en la entrada: solo mantenga visible el código QR.",
+    "feat4Title": "Soporte 24/7",
+    "feat4Desc": "Equipo de soporte de habla inglesa por correo electrónico y chat para ayudar con su visita.",
+    "faqTitle": "Preguntas Frecuentes"
+  },
+  "footer": {
+    "copyright": "© Todos los derechos reservados.",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "about": "Sobre nosotros",
+    "cancellation": "Política de cancelación",
+    "disclaimer": "Descargo de responsabilidad",
+    "securePayment": "PAGO SEGURO",
+    "paymentDesc": "Aceptamos todas las principales tarjetas de crédito. Encriptado por Stripe."
+  },
+  "admin": {
+    "title": "Panel de administración",
+    "tickets": "Administrar entradas",
+    "orders": "Pedidos",
+    "disclaimer": "Disclaimer",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "about": "Sobre nosotros",
+    "disclaimerSite": "Sitio de Descargo",
+    "faq": "Preguntas Frecuentes",
+    "guide": "Guía",
+    "company": "Empresa",
+    "logout": "Cerrar sesión"
+  },
+  "reviews": {
+    "title": "Opiniones de los huéspedes",
+    "count": "opiniones",
+    "basedOn": "basado en {count} opiniones"
+  }
+}

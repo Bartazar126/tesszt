@@ -1,0 +1,103 @@
+{
+  "nav": {
+    "home": "Home",
+    "louvre": "Louvre",
+    "eiffel": "Torre Eiffel",
+    "seine": "Crociera sulla Senna",
+    "admin": "Admin"
+  },
+  "hero": {
+    "title": "Biglietti per il Louvre e audioguide con e-guide",
+    "subtitle": "Salta la coda e scopri le attrazioni imperdibili di Parigi"
+  },
+  "tickets": {
+    "buy": "Acquista biglietto",
+    "from": "da",
+    "adult": "Adulto",
+    "child": "Bambino",
+    "duration": "Durata",
+    "date": "Data",
+    "time": "Ora",
+    "total": "Totale",
+    "decrease": "Diminuisci",
+    "increase": "Aumenta",
+    "previousMonth": "Mese precedente",
+    "nextMonth": "Mese successivo",
+    "fullName": "Nome completo",
+    "email": "Email",
+    "confirmEmail": "Conferma email",
+    "phone": "Numero di telefono",
+    "fillAllFields": "Si prega di compilare tutti i campi.",
+    "emailMismatch": "Le email non corrispondono.",
+    "checkAvailability": "Verifica disponibilità",
+    "included": "Cosa è incluso",
+    "notIncluded": "Cosa non è incluso",
+    "important": "Informazioni importanti",
+    "meetingPoint": "Punto di incontro e mappa"
+  },
+  "louvre": {
+    "title": "Museo del Louvre",
+    "description": "Scopri il museo d'arte più grande del mondo. La Gioconda, La Libertà che guida il popolo e migliaia di capolavori ti aspettano.",
+    "duration": "2-4 ore"
+  },
+  "eiffel": {
+    "title": "Torre Eiffel",
+    "description": "Monumento simbolo di Parigi. Splendida vista sulla città dal secondo o terzo piano.",
+    "duration": "1-2 ore"
+  },
+  "seine": {
+    "title": "Crociera sulla Senna",
+    "description": "Romantica crociera in battello sulla Senna. I migliori monumenti di Parigi visti dall'acqua.",
+    "duration": "1 ora"
+  },
+  "home": {
+    "badge": "Esperienza in stile ParisTicket",
+    "delivery": "Consegna immediata",
+    "support": "Supporto 24/7",
+    "skip": "Salta la fila",
+    "secure": "Pagamento sicuro",
+    "selectTour": "Seleziona il tuo tour",
+    "selectDesc": "Biglietti e tour per le attrazioni più famose di Parigi.",
+    "approx": "Circa",
+    "featuresDesc": "Biglietti per il Louvre, accesso alla Torre Eiffel e crociere sulla Senna in un unico posto.",
+    "whyBook": "Perché prenotare con noi",
+    "feat1Title": "Inclusioni del biglietto",
+    "feat1Desc": "Accesso completo alle attrazioni con inclusioni chiaramente descritte prima del pagamento.",
+    "feat2Title": "Conferma istantanea",
+    "feat2Desc": "La tua prenotazione viene confermata subito dopo l'acquisto, biglietti inviati in pochi minuti.",
+    "feat3Title": "Biglietti digitali",
+    "feat3Desc": "Mostra il tuo biglietto mobile all'ingresso: tieni semplicemente visibile il codice QR.",
+    "feat4Title": "Supporto 24/7",
+    "feat4Desc": "Team di supporto in lingua inglese via e-mail e chat per assisterti durante la tua visita.",
+    "faqTitle": "Domande Frequenti"
+  },
+  "footer": {
+    "copyright": "© Tutti i diritti riservati.",
+    "privacy": "Informativa sulla privacy",
+    "terms": "Termini di servizio",
+    "about": "Chi siamo",
+    "cancellation": "Politica di cancellazione",
+    "disclaimer": "Dichiarazione di non responsabilità",
+    "securePayment": "PAGAMENTO SICURO",
+    "paymentDesc": "Accettiamo tutte le principali carte di credito. Criptato da Stripe."
+  },
+  "admin": {
+    "title": "Pannello di controllo",
+    "tickets": "Gestisci biglietti",
+    "orders": "Ordini",
+    "disclaimer": "Disclaimer",
+    "privacy": "Privacy",
+    "terms": "Termini",
+    "about": "Chi siamo",
+    "disclaimerSite": "Sito Disclaimer",
+    "faq": "Domande Frequenti",
+    "guide": "Guida",
+    "company": "Azienda",
+    "logout": "Disconnetti"
+  },
+  "reviews": {
+    "title": "Recensioni degli ospiti",
+    "count": "recensioni",
+    "basedOn": "basato su {count} recensioni"
+  }
+}

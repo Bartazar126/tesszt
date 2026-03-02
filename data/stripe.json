@@ -1,0 +1,5 @@
+{
+    "publishableKey": "REPLACE_WITH_PUBLISHABLE_KEY",
+    "secretKey": "REPLACE_WITH_SECRET_KEY",
+    "webhookSecret": ""
+}

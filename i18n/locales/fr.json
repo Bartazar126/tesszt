@@ -1,0 +1,103 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "louvre": "Louvre",
+    "eiffel": "Tour Eiffel",
+    "seine": "Croisière sur la Seine",
+    "admin": "Admin"
+  },
+  "hero": {
+    "title": "Billets coupe-file pour le Louvre avec audioguide",
+    "subtitle": "Évitez les files d'attente et découvrez les attractions incontournables de Paris"
+  },
+  "tickets": {
+    "buy": "Acheter un billet",
+    "from": "à partir de",
+    "adult": "Adulte",
+    "child": "Enfant",
+    "duration": "Durée",
+    "date": "Date",
+    "time": "Horaire",
+    "total": "Total",
+    "decrease": "Diminuer",
+    "increase": "Augmenter",
+    "previousMonth": "Mois précédent",
+    "nextMonth": "Mois suivant",
+    "fullName": "Nom complet",
+    "email": "E-mail",
+    "confirmEmail": "Confirmer l'e-mail",
+    "phone": "Numéro de téléphone",
+    "fillAllFields": "Veuillez remplir tous les champs.",
+    "emailMismatch": "Les e-mails ne correspondent pas.",
+    "checkAvailability": "Voir les disponibilités",
+    "included": "Ce qui est inclus",
+    "notIncluded": "Ce qui n'est pas inclus",
+    "important": "Informations importantes",
+    "meetingPoint": "Point de rendez-vous et carte"
+  },
+  "louvre": {
+    "title": "Musée du Louvre",
+    "description": "Découvrez le plus grand musée d'art du monde. La Joconde, La Liberté guidant le peuple et des milliers de chefs-d'œuvre vous attendent.",
+    "duration": "2-4 heures"
+  },
+  "eiffel": {
+    "title": "Tour Eiffel",
+    "description": "Monument emblématique de Paris. Vue imprenable sur la ville depuis le 2e ou 3e étage.",
+    "duration": "1-2 heures"
+  },
+  "seine": {
+    "title": "Croisière sur la Seine",
+    "description": "Croisière romantique sur la Seine. Les plus beaux monuments de Paris depuis l'eau.",
+    "duration": "1 heure"
+  },
+  "home": {
+    "badge": "Expérience style ParisTicket",
+    "delivery": "Livraison instantanée",
+    "support": "Assistance 24/7",
+    "skip": "Accès coupe-file",
+    "secure": "Paiement sécurisé",
+    "selectTour": "Découvrez nos visites",
+    "selectDesc": "Billets et visites des attractions les plus célèbres de Paris.",
+    "approx": "Env.",
+    "featuresDesc": "Billets pour le Louvre, accès à la tour Eiffel et croisières sur la Seine en un seul endroit.",
+    "whyBook": "Pourquoi réserver avec nous",
+    "feat1Title": "Inclusions du billet",
+    "feat1Desc": "Accès complet aux attractions avec des inclusions clairement décrites avant le paiement.",
+    "feat2Title": "Confirmation instantanée",
+    "feat2Desc": "Votre réservation est confirmée juste après l'achat, billets envoyés en quelques minutes.",
+    "feat3Title": "Billets numériques",
+    "feat3Desc": "Présentez votre billet mobile à l'entrée – gardez simplement le code QR visible.",
+    "feat4Title": "Assistance 24/7",
+    "feat4Desc": "Équipe de support anglophone par e-mail et chat pour vous aider lors de votre visite.",
+    "faqTitle": "Foire Aux Questions"
+  },
+  "footer": {
+    "copyright": "© Tous droits réservés.",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions de service",
+    "about": "À propos de nous",
+    "cancellation": "Politique d'annulation",
+    "disclaimer": "Avis de non-responsabilité",
+    "securePayment": "PAIEMENT SÉCURISÉ",
+    "paymentDesc": "Nous acceptons toutes les principales cartes de crédit. Crypté par Stripe."
+  },
+  "admin": {
+    "title": "Panneau d'administration",
+    "tickets": "Gérer les billets",
+    "orders": "Commandes",
+    "disclaimer": "Disclaimer",
+    "privacy": "Confidentialité",
+    "terms": "Conditions",
+    "about": "À propos",
+    "disclaimerSite": "Site Avertissement",
+    "faq": "Foire Aux Questions",
+    "guide": "Guide",
+    "company": "Entreprise",
+    "logout": "Déconnexion"
+  },
+  "reviews": {
+    "title": "Avis des clients",
+    "count": "avis",
+    "basedOn": "basé sur {count} avis"
+  }
+}

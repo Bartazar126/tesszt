@@ -1,0 +1,103 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "louvre": "Louvre",
+    "eiffel": "Eiffelturm",
+    "seine": "Seine-Flusskreuzfahrt",
+    "admin": "Admin"
+  },
+  "hero": {
+    "title": "Louvre-Tickets und Audioguides mit E-Guide",
+    "subtitle": "Überspringen Sie die Warteschlangen und entdecken Sie die wichtigsten Sehenswürdigkeiten von Paris"
+  },
+  "tickets": {
+    "buy": "Ticket kaufen",
+    "from": "ab",
+    "adult": "Erwachsener",
+    "child": "Kind",
+    "duration": "Dauer",
+    "date": "Datum",
+    "time": "Zeit",
+    "total": "Gesamt",
+    "decrease": "Verringern",
+    "increase": "Erhöhen",
+    "previousMonth": "Vorheriger Monat",
+    "nextMonth": "Nächster Monat",
+    "fullName": "Vollständiger Name",
+    "email": "E-Mail",
+    "confirmEmail": "E-Mail bestätigen",
+    "phone": "Telefonnummer",
+    "fillAllFields": "Bitte füllen Sie alle Felder aus.",
+    "emailMismatch": "E-Mail-Adressen stimmen nicht überein.",
+    "checkAvailability": "Verfügbarkeit prüfen",
+    "included": "Was ist inbegriffen",
+    "notIncluded": "Was nicht inbegriffen ist",
+    "important": "Wichtige Informationen",
+    "meetingPoint": "Treffpunkt & Karte"
+  },
+  "louvre": {
+    "title": "Louvre-Museum",
+    "description": "Entdecken Sie das größte Kunstmuseum der Welt. Mona Lisa, Die Freiheit führt das Volk und Tausende von Meisterwerken erwarten Sie.",
+    "duration": "2-4 Stunden"
+  },
+  "eiffel": {
+    "title": "Eiffelturm",
+    "description": "Wahrzeichen von Paris. Atemberaubender Blick über die Stadt aus der zweiten oder dritten Etage.",
+    "duration": "1-2 Stunden"
+  },
+  "seine": {
+    "title": "Seine-Flusskreuzfahrt",
+    "description": "Romantische Bootsfahrt auf der Seine. Die schönsten Monumente von Paris vom Wasser aus.",
+    "duration": "1 Stunde"
+  },
+  "home": {
+    "badge": "ParisTicket Style-Erlebnis",
+    "delivery": "Sofortige Lieferung",
+    "support": "24/7 Support",
+    "skip": "Bevorzugter Einlass",
+    "secure": "Sichere Zahlung",
+    "selectTour": "Wählen Sie Ihre Tour",
+    "selectDesc": "Tickets und Touren für die berühmtesten Sehenswürdigkeiten von Paris.",
+    "approx": "Ca.",
+    "featuresDesc": "Louvre-Tickets, Zugang zum Eiffelturm und Bootsfahrten auf der Seine – alles an einem Ort.",
+    "whyBook": "Warum bei uns buchen",
+    "feat1Title": "Ticket-Inklusivleistungen",
+    "feat1Desc": "Voller Zugang zu den Attraktionen mit klar beschriebenen Inklusivleistungen vor dem Check-out.",
+    "feat2Title": "Sofortige Bestätigung",
+    "feat2Desc": "Ihre Buchung wird direkt nach dem Kauf bestätigt, Tickets werden innerhalb von Minuten versendet.",
+    "feat3Title": "Digitale Tickets",
+    "feat3Desc": "Zeigen Sie Ihr mobiles Ticket am Eingang vor – halten Sie einfach den QR-Code bereit.",
+    "feat4Title": "24/7 Support",
+    "feat4Desc": "Englischsprachiges Support-Team per E-Mail und Chat, um bei Ihrem Besuch zu helfen.",
+    "faqTitle": "Häufig Gestellte Fragen"
+  },
+  "footer": {
+    "copyright": "© Alle Rechte vorbehalten.",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen",
+    "about": "Über uns",
+    "cancellation": "Stornierungsbedingungen",
+    "disclaimer": "Haftungsausschluss",
+    "securePayment": "SICHERE ZAHLUNG",
+    "paymentDesc": "Wir akzeptieren alle gängigen Kreditkarten. Verschlüsselt durch Stripe."
+  },
+  "admin": {
+    "title": "Admin-Bereich",
+    "tickets": "Tickets verwalten",
+    "orders": "Bestellungen",
+    "disclaimer": "Disclaimer",
+    "privacy": "Datenschutz",
+    "terms": "AGB",
+    "about": "Über uns",
+    "disclaimerSite": "Disclaimer Site",
+    "faq": "FAQ",
+    "guide": "Anleitung",
+    "company": "Unternehmen",
+    "logout": "Abmelden"
+  },
+  "reviews": {
+    "title": "Gästebewertungen",
+    "count": "Bewertungen",
+    "basedOn": "basierend auf {count} Bewertungen"
+  }
+}

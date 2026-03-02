@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1772103538549",
+    "question": {
+      "en": "Do I need to print my tickets?"
+    },
+    "answer": {
+      "en": "No. The Louvre accepts digital tickets presented directly on your smartphone."
+    }
+  },
+  {
+    "id": "1772103594191",
+    "question": {
+      "en": "Is the Museum Wheelchair accessible?"
+    },
+    "answer": {
+      "en": "Yes, the Louvre is fully accessible for people with reduced mobility. You can use the elevators at the Pyramid entrance."
+    }
+  },
+  {
+    "id": "1772103660184",
+    "question": {
+      "en": "What happens if I arrive late?"
+    },
+    "answer": {
+      "en": "Tickets are valid for a specific 30-minute time slot. If you arrive late, access may be refused or delayed depending on crowds."
+    }
+  },
+  {
+    "id": "1772103683390",
+    "question": {
+      "en": "Is there a cloakroom?"
+    },
+    "answer": {
+      "en": "Yes, self-service lockers are available for free under the Pyramid. Large suitcases are not allowed."
+    }
+  },
+  {
+    "id": "1772103699065",
+    "question": {
+      "en": "Can I re-enter?"
+    },
+    "answer": {
+      "en": "No, tickets are valid for a single entry only."
+    }
+  },
+  {
+    "id": "1772103722023",
+    "question": {
+      "en": "Is it free for children?"
+    },
+    "answer": {
+      "en": "Yes, admission is free for under 18s."
+    }
+  },
+  {
+    "id": "1772103741003",
+    "question": {
+      "en": "Can I get a Refund?"
+    },
+    "answer": {
+      "en": "Yes, if you are 24 hours before the scheduled visit."
+    }
+  }
+]

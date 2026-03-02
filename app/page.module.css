@@ -1,0 +1,362 @@
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+  min-height: calc(100dvh - 120px);
+}
+
+.banner {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-top: 0;
+}
+
+.bannerInner {
+  position: relative;
+  min-height: 320px;
+  padding: 32px 16px 40px;
+}
+
+.bannerBg {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+.bannerImage {
+  object-fit: cover;
+}
+
+.bannerOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.25) 40%, rgba(0, 0, 0, 0.05) 100%);
+}
+
+.bannerContent {
+  position: relative;
+  z-index: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  color: #f9fafb;
+}
+
+.bannerText {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.heroBadge {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.06);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #e5e7eb;
+  margin-bottom: 4px;
+}
+
+.heroTitle {
+  font-size: clamp(1.75rem, 5vw, 2.5rem);
+  font-weight: 700;
+  margin-bottom: 8px;
+  letter-spacing: -0.02em;
+}
+
+.heroSubtitle {
+  font-size: 1rem;
+  color: #e5e7eb;
+}
+
+.heroMeta {
+  margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  font-size: 0.8rem;
+  color: #f9fafb;
+}
+
+.heroMeta span::before {
+  content: '•';
+  margin-right: 4px;
+}
+
+.selector {
+  background: rgba(255, 255, 255, 0.96);
+  border-radius: 20px;
+  padding: 18px 16px;
+  box-shadow: 0 10px 35px rgba(15, 23, 42, 0.12);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: var(--color-text);
+}
+
+.selectorTitle {
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.selectorSubtitle {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+}
+
+.selectorList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.selectorItem {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 10px 12px;
+  border-radius: 14px;
+  background: #f9fafb;
+  border: 1px solid rgba(15, 23, 42, 0.06);
+  transition: background 0.15s ease, box-shadow 0.15s ease, transform 0.1s ease;
+  color: inherit;
+  text-decoration: none;
+}
+
+.selectorItem:hover {
+  background: #eff6ff;
+  border-color: #bfdbfe;
+  box-shadow: 0 8px 25px rgba(15, 23, 42, 0.08);
+  transform: translateY(-1px);
+}
+
+.selectorThumbnailWrap {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.selectorThumbnail {
+  object-fit: cover;
+}
+
+.selectorInfo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.selectorName {
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.selectorMeta {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+}
+
+.selectorPrice {
+  font-weight: 700;
+  font-size: 0.95rem;
+  white-space: nowrap;
+}
+
+.toursSection {
+  margin-top: 32px;
+}
+
+.toursTitle {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.toursSubtitle {
+  margin-top: 4px;
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  margin-bottom: 16px;
+}
+
+.features {
+  margin-top: 40px;
+}
+
+.featuresTitle {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.featuresGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 12px;
+}
+
+.featureCard {
+  padding: 14px 16px;
+  border-radius: 16px;
+  background: #f9fafb;
+  border: 1px solid rgba(15, 23, 42, 0.06);
+  font-size: 0.9rem;
+}
+
+.featureIcon {
+  display: block;
+  margin-bottom: 12px;
+}
+
+.featureCard h3 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.featureCard p {
+  color: var(--color-text-muted);
+  line-height: 1.4;
+}
+
+.faqSection {
+  margin-top: 48px;
+  padding-top: 32px;
+  border-top: 1px solid rgba(15, 23, 42, 0.08);
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.faqTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.guideSection {
+  margin-top: 48px;
+  padding: 40px;
+  background: #fff;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+  max-width: 1050px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  box-sizing: border-box;
+}
+
+.guideContent {
+  color: #4b5563;
+  line-height: 1.7;
+  font-size: 1.05rem;
+}
+
+.guideContent h2 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #111;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #f3f4f6;
+  padding-bottom: 0.5rem;
+}
+
+.guideContent h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.guideContent p {
+  margin-bottom: 1rem;
+}
+
+.guideContent ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.guideContent li {
+  margin-bottom: 0.5rem;
+}
+
+.guideContent li strong {
+  color: #111;
+}
+
+.footer {
+  text-align: center;
+  padding: 24px 16px;
+  color: var(--color-text-muted);
+  font-size: 0.875rem;
+  border-top: 1px solid rgba(15, 23, 42, 0.06);
+}
+
+@media (min-width: 768px) {
+  .main {
+    padding: 40px 24px 64px;
+  }
+
+  .bannerInner {
+    padding: 56px 24px 64px;
+  }
+
+  .bannerContent {
+    display: grid;
+    grid-template-columns: minmax(0, 3fr) minmax(0, 2.5fr);
+  }
+
+  .featuresGrid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+.legalWrapper {
+  padding: 2rem 1rem;
+  flex: 1;
+}
+
+.legalCard {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  padding: 2rem 1.5rem;
+  position: relative;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: none;
+}
+
+.legalCard a {
+  word-break: break-all;
+}
+
+@media (min-width: 768px) {
+  .legalWrapper {
+    padding: 6rem 2rem;
+  }
+
+  .legalCard {
+    padding: 4rem;
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "nav": {
+    "home": "Home",
+    "louvre": "Louvre",
+    "eiffel": "Eiffel Tower",
+    "seine": "Seine River Cruise",
+    "admin": "Admin"
+  },
+  "hero": {
+    "title": "Louvre tickets and audio guides with e‑guide",
+    "subtitle": "Skip the lines and discover Paris' must‑see attractions"
+  },
+  "tickets": {
+    "buy": "Buy Tickets",
+    "from": "from",
+    "adult": "Adult",
+    "child": "Child",
+    "duration": "Duration",
+    "date": "Date",
+    "time": "Time",
+    "total": "Total",
+    "decrease": "Decrease",
+    "increase": "Increase",
+    "previousMonth": "Previous month",
+    "nextMonth": "Next month",
+    "fullName": "Full name",
+    "email": "Email",
+    "confirmEmail": "Confirm email",
+    "phone": "Phone number",
+    "fillAllFields": "Please fill in all fields.",
+    "emailMismatch": "Emails do not match.",
+    "checkAvailability": "Check Availability",
+    "included": "What's included",
+    "notIncluded": "What's not included",
+    "important": "Important information",
+    "meetingPoint": "Meeting point & map"
+  },
+  "louvre": {
+    "title": "Louvre Museum",
+    "description": "Discover the world's largest art museum. Mona Lisa, Liberty Leading the People and thousands of masterpieces await you.",
+    "duration": "2-4 hours"
+  },
+  "eiffel": {
+    "title": "Eiffel Tower",
+    "description": "Paris's iconic landmark. Stunning city views from the second or third floor.",
+    "duration": "1-2 hours"
+  },
+  "seine": {
+    "title": "Seine River Cruise",
+    "description": "Romantic boat cruise on the Seine. Paris's finest monuments from the water.",
+    "duration": "1 hour"
+  },
+  "home": {
+    "badge": "ParisTicket style experience",
+    "delivery": "Instant delivery",
+    "support": "24/7 support",
+    "skip": "Cashier line skip",
+    "secure": "Secure payment",
+    "selectTour": "Select your tour",
+    "selectDesc": "Tickets and tours for Paris’ most famous attractions.",
+    "approx": "Approx.",
+    "featuresDesc": "Louvre tickets, Eiffel Tower access and Seine River cruises — all in one place.",
+    "whyBook": "Why book with us",
+    "feat1Title": "Ticket inclusions",
+    "feat1Desc": "Full access to the attractions with clearly described inclusions before checkout.",
+    "feat2Title": "Instant confirmation",
+    "feat2Desc": "Your booking is confirmed right after purchase, tickets sent within minutes.",
+    "feat3Title": "Digital tickets",
+    "feat3Desc": "Show your mobile ticket at the entrance – just keep the QR code visible.",
+    "feat4Title": "24/7 support",
+    "feat4Desc": "English-speaking support team by email and chat to help with your visit.",
+    "faqTitle": "Frequently Asked Questions"
+  },
+  "footer": {
+    "copyright": "© All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "about": "About us",
+    "cancellation": "Cancellation Policy",
+    "disclaimer": "Disclaimer",
+    "securePayment": "SECURE PAYMENT",
+    "paymentDesc": "We accept all major credit cards. Encrypted by Stripe."
+  },
+  "admin": {
+    "title": "Admin Panel",
+    "tickets": "Manage tickets",
+    "orders": "Orders",
+    "disclaimer": "Disclaimer",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "about": "About Us",
+    "disclaimerSite": "Disclaimer Site",
+    "faq": "FAQ",
+    "guide": "Guide",
+    "company": "Company",
+    "logout": "Log out"
+  },
+  "reviews": {
+    "title": "Guest Reviews",
+    "count": "reviews",
+    "basedOn": "based on {count} reviews"
+  }
+}

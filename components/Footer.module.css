@@ -1,0 +1,128 @@
+.footer {
+    background-color: #1a1a1a;
+    color: #eeeeee;
+    padding: 4rem 2rem 2rem;
+    font-family: inherit;
+    margin-top: auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.topSection {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@media (min-width: 768px) {
+    .topSection {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+@media (min-width: 768px) {
+    .links {
+        gap: 0.6rem;
+    }
+}
+
+.link {
+    color: #cccccc;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.2s ease;
+}
+
+.link:hover {
+    color: #ffffff;
+}
+
+.companyInfo {
+    font-size: 0.9rem;
+    color: #999999;
+    line-height: 1.5;
+}
+
+.companyTitle {
+    color: #ffffff;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.companyInfo p {
+    margin: 0.2rem 0;
+}
+
+.disclaimerBox {
+    background-color: #2a2a2a;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid #666;
+}
+
+.disclaimerText {
+    font-size: 0.85rem;
+    line-height: 1.6;
+    color: #bbbbbb;
+    margin: 0;
+}
+
+.bottomSection {
+    border-top: 1px solid #333;
+    padding-top: 1.5rem;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #777777;
+}
+
+.copyright {
+    margin: 0;
+}
+
+.paymentInfo {
+    margin-top: 0;
+    max-width: 300px;
+}
+
+.paymentTitle {
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin: 0 0 1rem 0;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.paymentDesc {
+    font-size: 0.85rem;
+    color: #999999;
+    line-height: 1.5;
+    margin: 0 0 1rem 0;
+}
+
+.paymentIcons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.paymentBadgeImg {
+    border-radius: 4px;
+    padding: 2px;
+    object-fit: contain;
+}

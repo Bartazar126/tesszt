@@ -1,0 +1,226 @@
+[
+  {
+    "id": "1",
+    "slug": "louvre-museum",
+    "name": {
+      "en": "Louvre Museum Entry Ticket",
+      "fr": "Name 1",
+      "de": "Ger Name",
+      "es": "ES Name",
+      "it": "IT Name"
+    },
+    "priceAdult": 32,
+    "priceChild": 0,
+    "stock": 500,
+    "duration": {
+      "en": "2-4 hours",
+      "fr": "",
+      "de": "",
+      "es": "",
+      "it": ""
+    },
+    "longDescription": {
+      "en": "<p>Step into the world’s largest and most iconic art museum, located in the heart of Paris. The Musée du Louvre is not just a building; it is a journey through 10,000 years of human history and creativity.</p><p></p><h3>Why You Can’t Miss It:</h3><p></p><ul><li>The Crown Jewels of Art: Stand face-to-face with legendary masterpieces like Leonardo da Vinci’s Mona Lisa, the Venus de Milo, and the Winged Victory of Samothrace.</li><li>A Royal Palace: Explore the breathtaking architecture of a former royal residence, from medieval foundations to the stunning modern Glass Pyramid.</li><li>Endless Discovery: With over 35,000 works on display across eight departments, there is something to inspire every visitor—from Ancient Egyptian treasures to Renaissance paintings.</li></ul><p></p><h3>Quick Tips for Your Visit:</h3><ul><li>Plan Ahead: The museum is massive! Focus on one or two wings (Denon, Richelieu, or Sully) to make the most of your time.</li><li>Opening Hours: Please note that the museum is closed on Tuesdays.</li><li>Best Time to Visit: To avoid the biggest crowds, consider booking an early morning or late afternoon slot.</li></ul><p></p><p><strong>Book your tickets now and walk through the halls of history!</strong></p>",
+      "fr": "<p>Részletes leírás</p>",
+      "de": "<p>Részletes leírás DE</p>",
+      "es": "<p>Részletes leírás ES</p>",
+      "it": "<p>Részletes leírás IT</p>"
+    },
+    "included": {
+      "en": "<ul><li>Entrance ticket to the Louvre Museum</li><li>Access to permanent collections</li><li>Digital confirmation and mobile ticket</li></ul>",
+      "fr": "<p>What&#39;s included</p>",
+      "de": "<p></p>",
+      "es": "<p></p>",
+      "it": "<p></p>"
+    },
+    "notIncluded": {
+      "en": "<ul><li>Guided tour with a live guide</li><li>Hotel pickup and drop‑off</li><li>Food and drinks</li></ul>",
+      "fr": "<p>What&#39;s not included</p>",
+      "de": "<p></p>",
+      "es": "<p></p>",
+      "it": "<p></p>"
+    },
+    "important": {
+      "en": "<ul><li>Security checks are mandatory - allow extra time.</li><li>Large bags are not allowed.</li></ul>",
+      "fr": "<p>Important information</p>",
+      "de": "<p></p>",
+      "es": "<p></p>",
+      "it": "<p></p>"
+    },
+    "meetingPoint": {
+      "en": "<p>Louvre Museum, main entrance under the glass pyramid.</p>",
+      "fr": "<p>Meeting point</p>",
+      "de": "<p></p>",
+      "es": "<p></p>",
+      "it": "<p></p>"
+    },
+    "mapSrc": "https://www.google.com/maps?q=Louvre%20Museum%20Paris&output=embed",
+    "closures": {
+      "dates": [
+        "2026-02-25",
+        "2026-02-28"
+      ],
+      "slots": {
+        "2026-02-26": [
+          "12:30",
+          "13:00",
+          "13:30",
+          "15:00",
+          "15:30"
+        ]
+      }
+    },
+    "thumbnail": "/uploads/1771925504032-598285996-thumbnail-large-1765621426970-1762256170643-1__1_.webp",
+    "images": [
+      "/uploads/1771925504000-370037358-thumbnail-large-1765621426971-1762256170646-guide-de-visite-louvre.jpg",
+      "/uploads/1771925504007-557865104-thumbnail-large-1765621426971-1762256170644-Secrets_of_Louvre_1.webp",
+      "/uploads/1771925504014-303757264-thumbnail-large-1765621426971-1762256170644-louvre-inside-big.jpg",
+      "/uploads/1771925504020-614397927-thumbnail-large-1765621426970-image__4_.webp",
+      "/uploads/1771925504026-706168221-thumbnail-large-1765621426970-image__3_.webp",
+      "/uploads/1771925504032-598285996-thumbnail-large-1765621426970-1762256170643-1__1_.webp"
+    ],
+    "openingTime": "09:30",
+    "closingTime": "16:00"
+  },
+  {
+    "id": "2",
+    "slug": "eiffel-tower",
+    "name": {
+      "en": "Eiffel Tower Entry Tickets - 2nd Floor via Stairs",
+      "fr": "",
+      "de": "",
+      "es": "",
+      "it": ""
+    },
+    "priceAdult": 26,
+    "priceChild": 13,
+    "stock": 300,
+    "duration": {
+      "en": "1-2 hours",
+      "fr": "",
+      "de": "",
+      "es": "",
+      "it": ""
+    },
+    "longDescription": {
+      "en": "<p>Visit the Eiffel Tower and enjoy unforgettable views over Paris. Choose between second or top floor access and take your time at each level.</p>",
+      "fr": "",
+      "de": "",
+      "es": "",
+      "it": ""
+    },
+    "included": {
+      "en": "<ul><li>Access to the Eiffel Tower (selected floors depending on ticket)</li><li>Use of elevators where specified on your ticket</li><li>Digital confirmation and mobile ticket</li></ul>",
+      "fr": "",
+      "de": "",
+      "es": "",
+      "it": ""
+    },
+    "notIncluded": {
+      "en": "<ul><li>Guided tour with a live guide</li><li>Hotel transfers</li><li>Food and drinks at the tower</li></ul>",
+      "fr": "",
+      "de": "",
+      "es": "",
+      "it": ""
+    },
+    "important": {
+      "en": "<ul><li>Expect security checks and possible waiting times at the entrance.</li><li>In case of bad weather or technical issues, access to the summit may be closed.</li><li>Wear comfortable shoes – there is a fair amount of walking and standing.</li></ul>",
+      "fr": "",
+      "de": "",
+      "es": "",
+      "it": ""
+    },
+    "meetingPoint": {
+      "en": "<p>Eiffel Tower, Champ de Mars, 5 Avenue Anatole France, 75007 Paris.</p>",
+      "fr": "",
+      "de": "",
+      "es": "",
+      "it": ""
+    },
+    "mapSrc": "https://www.google.com/maps?q=Eiffel%20Tower%20Paris&output=embed",
+    "closures": {
+      "dates": [],
+      "slots": {}
+    },
+    "thumbnail": "/uploads/1771925587559-552770932-thumbnail-large-1762414398200-1014-0714_eiffel-tower.webp",
+    "images": [
+      "/uploads/1771925587545-829288655-thumbnail-large-1762255921000-eiffel-tower-paris-france-champ-de-mars-view.webp",
+      "/uploads/1771925587553-942827753-thumbnail-large-1762255921000-champ-de-mars-eiffel.jpg",
+      "/uploads/1771925587559-552770932-thumbnail-large-1762414398200-1014-0714_eiffel-tower.webp"
+    ],
+    "openingTime": "10:00",
+    "closingTime": "22:00"
+  },
+  {
+    "id": "3",
+    "slug": "seine-river-cruise",
+    "name": {
+      "en": "Seine River Cruise",
+      "fr": "",
+      "de": "",
+      "es": "",
+      "it": ""
+    },
+    "priceAdult": 17,
+    "priceChild": 8,
+    "stock": 200,
+    "duration": {
+      "en": "1 hour",
+      "fr": "",
+      "de": "",
+      "es": "",
+      "it": ""
+    },
+    "longDescription": {
+      "en": "<p>Enjoy a relaxing cruise on the Seine River and see Paris from a different angle. Sail past the Louvre, Notre‑Dame, the Eiffel Tower and many more landmarks.</p>",
+      "fr": "",
+      "de": "",
+      "es": "",
+      "it": ""
+    },
+    "included": {
+      "en": "<ul><li>Seine River cruise ticket</li><li>Open‑air or covered boat (depending on weather and operator)</li><li>Audio commentary or audio guide app (where available)</li></ul>",
+      "fr": "",
+      "de": "",
+      "es": "",
+      "it": ""
+    },
+    "notIncluded": {
+      "en": "<ul><li>Hotel pickup and drop‑off</li><li>Drinks and snacks on board (unless otherwise stated)</li><li>Reserved seating</li></ul>",
+      "fr": "",
+      "de": "",
+      "es": "",
+      "it": ""
+    },
+    "important": {
+      "en": "<ul><li>Arrive at the pier at least 15–20 minutes before departure.</li><li>Cruises operate in most weather conditions – bring an extra layer in the evening.</li><li>Timetables may change on holidays and during special events on the river.</li></ul>",
+      "fr": "",
+      "de": "",
+      "es": "",
+      "it": ""
+    },
+    "meetingPoint": {
+      "en": "<p>Departure from a central Seine River pier (exact details in your confirmation).</p>",
+      "fr": "",
+      "de": "",
+      "es": "",
+      "it": ""
+    },
+    "mapSrc": "https://www.google.com/maps?q=Seine%20River%20Cruise%20Paris&output=embed",
+    "closures": {
+      "dates": [],
+      "slots": {}
+    },
+    "thumbnail": "/uploads/1771925600264-226876066-thumbnail-large-1763711860492-seineriver.jpg",
+    "images": [
+      "/uploads/1771925600233-412403832-thumbnail-large-1762417442845-image__18_.jpg",
+      "/uploads/1771925600240-643723160-thumbnail-large-1762417442844-image__17_.jpg",
+      "/uploads/1771925600247-694258033-thumbnail-large-1762417442843-image__16_.jpg",
+      "/uploads/1771925600253-182187466-thumbnail-large-1762417442843-image__15_.jpg",
+      "/uploads/1771925600258-454749336-thumbnail-large-1762417442846-image__14_.jpg",
+      "/uploads/1771925600264-226876066-thumbnail-large-1763711860492-seineriver.jpg"
+    ],
+    "openingTime": "10:00",
+    "closingTime": "22:00"
+  }
+]
