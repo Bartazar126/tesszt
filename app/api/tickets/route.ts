@@ -10,9 +10,9 @@ const REVIEWS_PATH = path.join(process.cwd(), 'data', 'reviews.json');
 export async function GET() {
     try {
         const raw = readFileSync(DATA_PATH, 'utf-8');
-        const tickets = JSON.parse(raw);
+        const tickets: any[] = JSON.parse(raw);
 
-        let reviews = [];
+        let reviews: any[] = [];
         try {
             reviews = JSON.parse(readFileSync(REVIEWS_PATH, 'utf-8'));
         } catch (e) {
